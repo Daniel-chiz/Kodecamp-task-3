@@ -276,8 +276,7 @@ nav{
 
 /* our features begins here */
 .our {
-  margin-top: 20rem;
-   margin: 0 2rem;
+   margin: 3rem;
    margin-bottom: 8rem;
 
 }
@@ -473,8 +472,8 @@ nav{
    display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8rem;
-  margin-bottom: 10rem;
+  gap: 5rem;
+  margin-bottom: 30rem;
 
  }
 
@@ -519,19 +518,26 @@ nav{
    height: auto;
 }
 
-.left-g .left{
-  width: 100%;
-  height: 30rem;
+.left {
+  position: absolute;
+  width: 25rem;
+  height: 20rem;
+  bottom: 0;
+  left: 9rem;
 }
 
-.right-g{
+.right-g {
    width: 30%;
    height: auto;
 }
 
-.right-g img{
-  width: 100%;
-  height: 30rem;
+.right {
+  position: absolute;
+  width: 25rem;
+  height: 20rem;
+  bottom: 0;
+  right: 10rem;
+
 }
 
 .pos{
@@ -539,24 +545,27 @@ nav{
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: 29rem;
-  bottom: 3rem;
-  width: 23rem;
+  left: 26rem;
+  bottom: -21rem;
+  width: 33rem;
   
 }
 
 /* The fourth section begins here */
 .section4 {
-  /* background-image: url(../assets/images/main4-background.png); */
+  background-image: url(../assets/images/main4-background.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* box-shadow: 0 0.1rem 0.1rem; */
-  /* width: 100%; */
+  box-shadow: 0 0.1rem 0.1rem;
+  width: 100%;
+  position: relative;
+
 }
 
 .d-green1 {
   width: 40%;
+  height: auto;
 }
 
 .d-green1 img{
@@ -568,7 +577,7 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   margin: 0 7rem;
   height: auto;
   position: relative;
@@ -578,12 +587,15 @@ nav{
 
 .profile-1 {
   background-color: #CBFFD0;
-  width: 20rem;
+  width: 28rem;
   height: 25rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: absolute;
+  left: 5rem;
+  top: -12rem;
 }
 
 .greater .prof-1{
@@ -592,75 +604,87 @@ nav{
 }
  
 .greater .fourstar{
-  width: 4rem;
+  width: 7rem;
 }
 
 .great {
-  font-size: 1rem;
-  padding: 2rem;
+  font-size: 1.5rem;
+  padding: 0.1rem;
   text-align: center;
+  width: 20rem;
 }
 
 .eme {
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
 }
 
 .testimonials {
-  font-size: 1.2rem;
-  font-weight: 900;
+  width: 100%;
+  height: auto;
+
 }
 
-.testimonials h2 {
+
+.testimony {
 position: absolute;
+top: -23rem;
+left: 30rem;
+font-size: 2.2rem;
+  font-weight: 800;
 
 }
 
 
 .profile-2 {
   background-color: #26A69A;
-  width: 25%;
+  width: 30%;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: absolute;
-  bottom: 0;
-  left: 31rem;
-  height: 27rem;
+  bottom: -15rem;
+  left: 26rem;
+  height: 30rem;
+  z-index: 99999;
 }
 
 .profile-2 .prof-2 {
    width: 5rem;
 }
 
-.profile-2 .fivesatar {
-   width: 4rem;
+.profile-2 .fivestars {
+   width: 9rem;
 }
 
 .clean {
-   font-size: 1rem;
+   font-size: 1.5rem;
   padding: 2rem;
+  width: 22rem;
+  text-align: center;
 }
 
 
 .jas {
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
 }
 
 
 .profile-3 {
   background-color: #CBFFD0;
-  width: 20rem;
-  border-radius: 2rem;
-  width: 22%;
+  width: 27rem;
   height: 25rem;
-
+  border-radius: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: absolute;
+  top: -12rem;
+  right: 9rem;
 }
+
 
 .profile-3 .prof-3{
   width: 5rem;
@@ -668,20 +692,23 @@ position: absolute;
 }
  
 .profile-3 .threestar {
-   width: 4rem;
+   width: 5rem;
 }
 
 
 
 .does {
-   font-size: 1rem;
-  padding: 2rem;
+    font-size: 1.5rem;
+  padding: 1rem;
   text-align: center;
+  width: 24rem;
+  text-align: center;
+
 }
 
 .tolu {
    font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
 }
 
 
